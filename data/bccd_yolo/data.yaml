@@ -1,0 +1,5 @@
+train: D:\PROFESSIONNEL\Mes_projets\Projets GitHub\object-detection-yolo\data\bccd_yolo\train\images
+val: D:\PROFESSIONNEL\Mes_projets\Projets GitHub\object-detection-yolo\data\bccd_yolo\val\images
+
+nc: 3
+names: ['RBC', 'WBC', 'Platelets']
