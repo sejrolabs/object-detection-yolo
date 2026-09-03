@@ -50,8 +50,8 @@ Un premier entraînement rapide (3 époques) a permis de valider que le pipeline
 - **Platelets (plaquettes)** : la plus forte progression entre 3 et 50 époques (mAP50 : 0.764 → 0.924, recall : 0.415 → 0.879). Leur petite taille les rend intrinsèquement plus difficiles à détecter (moins de pixels = moins d'information exploitable par le modèle), un défi classique en détection d'objets
 - **RBC (globules rouges)** : bon recall mais precision plus limitée (0.787) — cohérent avec leur nombre très élevé (832 instances sur seulement 71 images de validation) et leur chevauchement fréquent sur les images, rendant les frontières entre cellules ambiguës
 
-![Courbes d'entraînement](outputs/results.png)
-![Matrice de confusion](outputs/confusion_matrix.png)
+![Courbes d'entraînement](runs/detect/outputs/yolo_runs/bccd_full/results.png)
+![Matrice de confusion](runs/detect/outputs/yolo_runs/bccd_full/confusion_matrix.png)
 
 ## 🖥️ Application interactive
 
