@@ -1,3 +1,5 @@
 data/BCCD_raw/
 data/bccd_yolo/train/
 data/bccd_yolo/val/
+
+bccd_test/
